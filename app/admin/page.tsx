@@ -657,7 +657,7 @@ export default function AdminPage() {
           <DialogHeader>
             <DialogTitle>Confirmar Eliminación</DialogTitle>
             <DialogDescription>
-              ¿Está seguro de que desea eliminar el producto "{selectedProduct?.name}"? Esta acción no se puede
+              ¿Está seguro de que desea eliminar el producto &quot;{selectedProduct?.name}&quot;? Esta acción no se puede
               deshacer.
             </DialogDescription>
           </DialogHeader>
@@ -742,7 +742,7 @@ export default function AdminPage() {
           <DialogHeader>
             <DialogTitle>Confirmar Eliminación</DialogTitle>
             <DialogDescription>
-              ¿Está seguro de que desea eliminar el usuario "{selectedUser?.name}"? Esta acción no se puede deshacer.
+              ¿Está seguro de que desea eliminar el usuario &quot;{selectedProduct?.name}&quot;? Esta acción no se puede deshacer.
             </DialogDescription>
           </DialogHeader>
           <DialogFooter>

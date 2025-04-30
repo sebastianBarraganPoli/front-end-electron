@@ -62,7 +62,7 @@ export default function LoginPage() {
           variant: "destructive",
         })
       }
-    } catch (error) {
+    } catch {
       toast({
         title: "Error",
         description: "Ocurrió un error al iniciar sesión",
@@ -104,7 +104,7 @@ export default function LoginPage() {
           variant: "destructive",
         })
       }
-    } catch (error) {
+    } catch {
       toast({
         title: "Error",
         description: "Ocurrió un error al registrar la cuenta",

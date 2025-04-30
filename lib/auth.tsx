@@ -91,6 +91,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const user = MOCK_USERS.find((u) => u.email === email && u.password === password)
 
     if (user) {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const { password, ...userWithoutPassword } = user
       const newSession = {
         user: userWithoutPassword,
@@ -122,7 +123,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
     MOCK_USERS.push(newUser)
 
-    // Iniciar sesión automáticamente después del registro
     const { password: _, ...userWithoutPassword } = newUser
     const newSession = {
       user: userWithoutPassword,
